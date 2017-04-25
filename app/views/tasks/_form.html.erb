@@ -11,7 +11,7 @@
 <% end %>
 
 <%= f.label :status, "状態" %>
-<%= f.select :status, [["未完了", "未完了"], ["完了", "完了"]], :include_blank => true %> 
+<%= f.text_field :status %>
 
 <%= f.label :content, "タスク" %>
 <%= f.text_field :content %>
